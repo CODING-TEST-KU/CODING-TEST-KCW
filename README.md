@@ -4,3 +4,18 @@
 ### 📈 Solved.ac
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=kan0202)](https://solved.ac/kan0202)
+
+
+### 개인 목표
+- 매일 1문제이상 풀이
+- GitHub에 풀이 코드 업로드 및 인증
+- 매주 2개이상의 자료구조 혹은 알고리즘에 대한 공부 내용 notion에 업로드
+
+## 폴더 구조
+- `src`: 소스 코드 폴더
+- `src/x[N][Unit Name]`: 단원별 해결한 문제 모음
+
+## 유용한 링크
+- [Baekjoon Online Judge](https://www.acmicpc.net/)
+- [solved.ac](https://solved.ac/)
+- [바킹독 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
