@@ -6,7 +6,7 @@
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=kan0202)](https://solved.ac/kan0202)
 
 
-### 개인 목표
+## 개인 목표
 - 매일 1문제이상 풀이
 - GitHub에 풀이 코드 업로드 및 인증
 - 매주 2개이상의 자료구조 혹은 알고리즘에 대한 공부 내용 notion에 업로드
