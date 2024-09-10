@@ -10,6 +10,7 @@
 - 매일 1문제이상 풀이
 - GitHub에 풀이 코드 업로드 및 인증
 - 매주 2개이상의 자료구조 혹은 알고리즘에 대한 공부 내용 notion에 업로드
+- [notion](https://available-vanilla-a9f.notion.site/Algorithm-86d8835d949b4411aefbe4d25e2b2c56?pvs=4)
 
 ## 폴더 구조
 - `src`: 소스 코드 폴더
