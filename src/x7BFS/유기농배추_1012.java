@@ -60,19 +60,25 @@ public class 유기농배추_1012 {
 
 
         public boolean BFS(int startX, int startY){
+
+            //queue(BFS) 혹은 stack(DFS) 선언
             Deque<intPair> queue = new ArrayDeque<>();
 
+            //시작 지점이 -1일 경우 이미 어떠한 배추흰지렁이에 의해서 보호됨.
             if(graph[startY][startX] == -1)
                 return false;
 
+            //첫번째 노드를 queue 에 넣음.
             queue.push(new intPair(startX, startY));
+            //첫번째 노드를 방문했다는 표시를 함.
             graph[startY][startX] = -1;
 
             while(!queue.isEmpty()){
 
+                //queue 에서 노드 하나를 꺼냄
                 intPair present = queue.pollLast();
 
-
+                //노드와 인접한 노드를 모두 확인하여 1일 경우에만 queue 에 넣음.
                 for(int i = 0; i < 4; i++){
                     int nextX = present.x + dx[i];
                     int nextY = present.y + dy[i];
