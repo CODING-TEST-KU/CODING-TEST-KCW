@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 
 public class Strfry_11328 {
     public static void main(String[] args) throws IOException {
+
         //Reader, Writer 선언 및 초기 값 읽기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
