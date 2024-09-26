@@ -41,7 +41,7 @@ public class 이천칠년_1924 {
             case 5:
                 bw.write("SAT");
                 break;
-            case 6:
+            case -1:
                 bw.write("SUN");
                 break;
 
