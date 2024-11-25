@@ -1,4 +1,4 @@
-package 이분탐색;
+package 투포인터;
 
 import java.io.BufferedReader;
 import java.io.IOException;
