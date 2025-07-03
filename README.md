@@ -13,8 +13,21 @@
 - [notion 페이지](https://available-vanilla-a9f.notion.site/Algorithm-86d8835d949b4411aefbe4d25e2b2c56?pvs=4)
 
 ## 폴더 구조
-- `src`: 소스 코드 폴더
-- `src/x[N][Unit Name]`: 단원별 해결한 문제 모음
+```plaintext
+CODING-TEST-KCW-JAVA/
+├── src/
+│   ├── 스터디2024/         // 2024 스터디 자료
+│   │    └── ...
+│   │
+│   └── 스터디2025/         // 2025 스터디 자료
+│       ├── 알고리즘구현    // 알고리즘 직접 구현 코드 모음
+│       │    └── ...
+│       ├── [Unit Name1]   // 단원별 해결한 문제 모음
+│       ├── [Unit Name2]
+│       └── ...
+│
+└── README.md
+```
 
 ## 유용한 링크
 - [Baekjoon Online Judge](https://www.acmicpc.net/)
