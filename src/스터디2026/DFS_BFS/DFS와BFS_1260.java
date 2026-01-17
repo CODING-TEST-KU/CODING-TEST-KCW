@@ -25,14 +25,14 @@ public class DFS와BFS_1260 {
     int M = Integer.parseInt(st.nextToken());
     int V = Integer.parseInt(st.nextToken());
 
+    visitedDFS = new boolean[N + 1];
+    visitedBFS = new boolean[N + 1];
+
     //Init Graph
     graph = new LinkedList[N + 1];
     for (int i = 0; i <= N; i++) {
       graph[i] = new LinkedList<>();
     }
-
-    visitedDFS = new boolean[N + 1];
-    visitedBFS = new boolean[N + 1];
 
     for (int i = 0; i < M; i++) {
       StringTokenizer st1 = new StringTokenizer(br.readLine(), " ");
@@ -47,7 +47,7 @@ public class DFS와BFS_1260 {
       neighbors.sort(Comparator.naturalOrder());
     }
 
-    //DFS
+    //DFS/BFS Execute
     dfs(V);
     System.out.println();
     bfs(V);
@@ -65,8 +65,9 @@ public class DFS와BFS_1260 {
 
   public static void bfs(int start) {
     Deque<Integer> queue = new ArrayDeque<>();
-    visitedBFS[start] = true;
+    // Queue 에 넣는 순간 방문 완료
     queue.add(start);
+    visitedBFS[start] = true;
 
     while (!queue.isEmpty()) {
       int current = queue.poll();
